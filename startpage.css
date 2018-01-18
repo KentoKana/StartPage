@@ -1,0 +1,110 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Questrial', sans-serif;
+	background: url('https://i.imgur.com/9FTohbs.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	font-size: 200%;
+	text-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+
+}
+
+#app {
+	width: 100vw;
+	height: 100vh;
+	border-top: solid 40px rgb(224, 136, 44);
+	border-bottom: solid 40px rgb(224, 136, 44);
+}
+
+.bg-color{
+	margin: auto;
+	padding: 10px 80px;
+	width: 90%;
+	background: rgba(224, 136, 44, 0.5);
+	border-radius: 20px;
+	background-position: center;
+	background-size: cover;
+}
+.body-wrap {
+	text-align: center;
+	width: 1000px;
+	margin: 150px auto;
+}
+
+.greeting {
+	margin: 0;
+	padding: 0;
+	color: white;
+
+}
+
+#time {
+	padding: 0;
+	margin-bottom: 40px;
+	color: white;
+	font-size: 80px;
+}
+
+input[type=text] {
+	font-size: 30px;
+	border: rgb(224, 136, 44) 3px solid;
+	text-align: center;
+	color: white;
+	background-color: rgba(224, 136, 44, 0.8);
+	margin: auto auto 30px;
+	width: 400px;
+	height: 50px;
+	outline: none;
+}
+
+
+#line {
+	border-top: solid 3px white;
+	margin-bottom: 30px;
+
+}
+
+.links {
+	margin: auto;
+	padding: 0;
+	min-width: 50%;
+}
+
+.links ul{
+	color: white;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.links ul li {
+	text-align: center;
+	display: inline-block;
+	margin: 0px 20px;
+	font-size: 40px;
+
+}
+
+
+.links a {
+	padding: 0;
+	margin-top: 0;
+	color: white;
+	text-decoration: none;
+
+}
+
+.links a:hover {
+	transition: color 0.5s ease;
+	color: orange;
+}
+
+.links a:active {
+	color: red;
+}
